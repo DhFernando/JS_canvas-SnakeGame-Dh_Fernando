@@ -67,28 +67,23 @@ animate();
 
 setInterval(animate,100);
 
-
 window.addEventListener("keyup",function(event){
 	
  	switch(event.keyCode){
  		case 37:
- 		sx=-1;sy=0;
- 		break;
+ 			sx=-1; sy=0;
+ 			break;
  		case 38:
- 		sy=-1;
- 		sx=0;
- 		break;
+ 			sy=-1; sx=0;
+ 			break;
  		case 39:
- 		sx=1;
- 		sy=0;
- 		break;
+ 			sx=1; sy=0;
+ 			break;
  		case 40:
- 		sy=1;
- 		sx=0;
- 		break;
+ 			sy=1; sx=0;
+ 			break;
  		case 32:
- 		sy=0;
- 		sx=0;
- 		break;
+ 			sy=0; sx=0;
+ 			break;
  	}});
  
